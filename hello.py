@@ -1,5 +1,5 @@
 import time, locale, requests;
-
+from datetime import datetime;
 mach01 = False;
 
 if (mach01):
@@ -35,3 +35,18 @@ print( "s.partition(\"bin\")");
 print( s.partition("bin"));
 print( "s.split(\"bin\")");
 print( s.split("bin"));
+n = datetime.now();
+print( n);
+print( n.strftime("%d.%m.%Y %H:%M.%s"));
+
+#!/usr/bin/env python3
+# Beispielprogramm measure.py
+import time, math
+start = time.process_time()
+
+# sinnlos Zeit totschlagen
+for i in range(1, 1000000):  
+  x=math.sin(i)
+
+end = time.process_time()    
+print(end - start, 'Sekunden')
