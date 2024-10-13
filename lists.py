@@ -31,11 +31,11 @@ def drawFrame():
     LRou = chr( 0x253f);
     lrOU = chr( 0x2542);
     LROU = chr( 0x254b);
-    lineTop = RU + LR + LRu + LR + LRu + LR + LRU + LR + LRu + LR + LRu + LR + LRU + LR + LRu + LR + LRu + LR + LU;
-    lineBot = RO + LR + LRo + LR + LRo + LR + LRO + LR + LRo + LR + LRo + LR + LRO + LR + LRo + LR + LRo + LR + LO;
-    lineSep = rOU + lr + lrou + lr + lrou + lr + lrOU  + lr + lrou + lr + lrou + lr + lrOU  + lr + lrou + lr + lrou + lr + lOU;
-    lineSEP = ROU + LR + LRou + LR + LRou + LR + LROU  + LR + LRou + LR + LRou + LR + LROU  + LR + LRou + LR + LRou + LR + LOU;
-    lineTxt = OU + " " + ou + " " + ou + " " + OU + " " + ou + " " + ou + " " + OU + " " + ou + " " + ou + " " + OU;
+    lineTop = RU + LR + LR + LR + LRu + LR + LR + LR + LRu + LR + LR + LR + LRU + LR + LR + LR + LRu + LR + LR + LR + LRu + LR + LR + LR + LRU + LR + LR + LR + LRu + LR + LR + LR + LRu + LR + LR + LR + LU;
+    lineBot = RO + LR + LR + LR + LRo + LR + LR + LR + LRo + LR + LR + LR + LRO + LR + LR + LR + LRo + LR + LR + LR + LRo + LR + LR + LR + LRO + LR + LR + LR + LRo + LR + LR + LR + LRo + LR + LR + LR + LO;
+    lineSep = rOU + lr + lr + lr + lrou + lr + lr + lr + lrou + lr + lr + lr + lrOU  + lr + lr + lr + lrou + lr + lr + lr + lrou + lr + lr + lr + lrOU  + lr + lr + lr + lrou + lr + lr + lr + lrou + lr + lr + lr + lOU;
+    lineSEP = ROU + LR + LR + LR + LRou + LR + LR + LR + LRou + LR + LR + LR + LROU  + LR + LR + LR + LRou + LR + LR + LR + LRou + LR + LR + LR + LROU  + LR + LR + LR + LRou + LR + LR + LR + LRou + LR + LR + LR + LOU;
+    lineTxt = OU + "   " + ou + "   " + ou + "   " + OU + "   " + ou + "   " + ou + "   " + OU + "   " + ou + "   " + ou + "   " + OU;
     print( lineTop);
     print( lineTxt);
     print( lineSep);
