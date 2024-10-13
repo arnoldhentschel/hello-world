@@ -1,6 +1,11 @@
 import sys;
+import os
+
+
 # Beispiel fuer Listenverarbeitung
 #   Konstatnen fuer Unicode-Zeichen, lrou = links rechts, oben unten
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
 
 def drawFrame():
     lr = chr(0x2500);
@@ -31,6 +36,7 @@ def drawFrame():
     LRou = chr( 0x253f);
     lrOU = chr( 0x2542);
     LROU = chr( 0x254b);
+    cls();
     lineTop = RU + LR + LR + LR + LRu + LR + LR + LR + LRu + LR + LR + LR + LRU + LR + LR + LR + LRu + LR + LR + LR + LRu + LR + LR + LR + LRU + LR + LR + LR + LRu + LR + LR + LR + LRu + LR + LR + LR + LU;
     lineBot = RO + LR + LR + LR + LRo + LR + LR + LR + LRo + LR + LR + LR + LRO + LR + LR + LR + LRo + LR + LR + LR + LRo + LR + LR + LR + LRO + LR + LR + LR + LRo + LR + LR + LR + LRo + LR + LR + LR + LO;
     lineSep = rOU + lr + lr + lr + lrou + lr + lr + lr + lrou + lr + lr + lr + lrOU  + lr + lr + lr + lrou + lr + lr + lr + lrou + lr + lr + lr + lrOU  + lr + lr + lr + lrou + lr + lr + lr + lrou + lr + lr + lr + lOU;
@@ -63,5 +69,4 @@ def move (y, x):
 #for i in range( 0x2500,0x257f):
 #   #   move( i, i);
 #    print( str(i)+ ':' + chr(i));
-
 drawFrame();
